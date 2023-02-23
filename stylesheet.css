@@ -1,4 +1,39 @@
-stylesheet.css
-.h1 {
-    color: blue;
+li {
+    list-style: none;
+    float: none;
+    padding: 33px 20px 33px 20px;
+}
+
+.header {
+    background-color: black;
+    height: 90px;
+    color: white;
+}
+
+.header-logo {
+    padding: 23px 30px 23px 30px;
+    float: left;
+    font-size: 28px;
+}
+
+.header-list li {
+    color: white;
+    padding: 33px 20px;
+    float: right;
+}
+
+.footer {
+    background-color: darkgray;
+    height: 90px;
+    color: white;
+}
+
+.footer-logo {
+    float: left;
+    font-size: 28px;
+    padding: 23px 30px 23px 30px;
+}
+
+.footer-list li {
+    float: right;
 }
