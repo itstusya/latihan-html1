@@ -1,6 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 li {
     list-style: none;
-    float: none;
     padding: 33px 20px 33px 20px;
 }
 
@@ -16,24 +20,139 @@ li {
     font-size: 28px;
 }
 
-.header-list li {
+.header-list ul {
     color: white;
-    padding: 33px 20px;
-    float: right;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.copy-container h1 {
+    font-size: 50px;
+    font-family: Georgia;
+}
+
+.copy-container h2 {
+    font-size: 20px;
+}
+
+.copy-container span {
+    color: yellow;
+}
+
+#profil {
+    width: 100px;
+    height: 100px;
+}
+
+.copy-container {
+    color: #404146;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    margin-top: 70px;
+}
+
+.contents {
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contents p {
+    margin: 0;
+    padding: 60px;
+    padding-top: 0;
+    padding-bottom: 70px;
+    font-size: 12px;
+}
+
+.contact {
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.contoh-gambar {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    column-gap: 75px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.gambar img {
+    width: 150px;
+    height: 150px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 18px;
+    margin: 0;
+    padding-top: 70px;
+    padding-bottom: 15px;
+}
+
+.gambar p {
+    text-align: center;
+    font-size: 10px;
+    font-family: Georgia;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    align-items: center;
+}
+
+.contact form input,
+.contact form textarea {
+    border-radius: 8px;
+    padding: 20px 100px;
+    border: 0;
+    width: 250px;
+}
+
+#kirim {
+    background-color: #F6E889;
+    border-color: #F6E889;
+    width: 300px;
+    padding: 15px 20px;
 }
 
 .footer {
-    background-color: darkgray;
-    height: 90px;
+    display: flex;
+    background-color: #7C7D82;
+    justify-content: space-between;
     color: white;
+    padding-bottom: 30px;
 }
 
 .footer-logo {
-    float: left;
-    font-size: 28px;
-    padding: 23px 30px 23px 30px;
+    font-size: 30px;
+    padding: 40px 30px;
+    letter-spacing: 10px;
 }
 
-.footer-list li {
-    float: right;
+.footer-list ul li {
+    padding-bottom: 2px;
+    padding-right: 30px;
+    padding-top: 20px;
 }
